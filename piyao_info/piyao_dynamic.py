@@ -91,7 +91,7 @@ if __name__ == "__main__":
         pubtime = a.craw_pubtime()
         url = a.craw_linkurl()
         editor = a.craw_editor()
-        a.go
+        a.go()
 
         yaoyan_list = zip(title, sourcename, pubtime, url, editor)
         yaoyan_list = [j for j in yaoyan_list]
